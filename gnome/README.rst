@@ -117,3 +117,8 @@ Couple of my top ones (shared)
 ArcMenu
 
 DashToDock
+
+For wallpaper (Picture of the day)
+-Bing Wallpaper
+-NASA APOD Wallpaper Changer
+-Google Earth Wallpaper
