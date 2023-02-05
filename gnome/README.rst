@@ -11,6 +11,8 @@ Contributors:
 
 - Robert P Campbell
 
+- Ja Koolit
+
 MANDATORY
 +++++++++++++
 
@@ -118,7 +120,13 @@ ArcMenu
 
 DashToDock
 
+Ja Koolit's list
+++++++++++++++++++++++++
+
 For wallpaper (Picture of the day)
--Bing Wallpaper
--NASA APOD Wallpaper Changer
--Google Earth Wallpaper
+
+- Bing Wallpaper
+
+- NASA APOD Wallpaper Changer
+
+- Google Earth Wallpaper
