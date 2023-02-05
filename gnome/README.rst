@@ -11,6 +11,8 @@ Contributors:
 
 - Robert P Campbell
 
+- Ja Koolit
+
 MANDATORY
 +++++++++++++
 
@@ -117,3 +119,14 @@ Couple of my top ones (shared)
 ArcMenu
 
 DashToDock
+
+Ja Koolit's list
+++++++++++++++++++++++++
+
+For wallpaper (Picture of the day)
+
+- Bing Wallpaper
+
+- NASA APOD Wallpaper Changer
+
+- Google Earth Wallpaper
