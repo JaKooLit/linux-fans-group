@@ -12,7 +12,7 @@
 #Create all user settings folders
 builtin cd "$HOME/common"
 /bin/mkdir -p .cache/lutris .cache/mozilla .cache/wine .cache/winetricks .config/lutris .mozilla .local/share/lutris Games
-builtin cd --
+builtin cd -- >/dev/null
 builtin declare -a folders=($(xdg-user-dir DOCUMENTS) $(xdg-user-dir DOWNLOAD) $(xdg-user-dir MUSIC) $(xdg-user-dir PICTURES) $(xdg-user-dir PUBLICSHARE) $(xdg-user-dir TEMPLATES) $(xdg-user-dir VIDEOS))
 for i in folders[$@]; do
   /bin/mkdir -p "$HOME/common/${i##*/}"
@@ -43,15 +43,15 @@ builtin cd /home/$USER/.cache
 /bin/ln -s /home/common/.cache/mozilla .
 /bin/ln -s /home/common/.cache/wine .
 /bin/ln -s /home/common/.cache/winetricks .
-builtin cd --
+builtin cd -- >/dev/null
 
 builtin cd /home/$USER/.config
 /bin/ln -s /home/common/.config/lutris .
-builtin cd --
+builtin cd -- >/dev/null
 
 builtin cd /home/$USER/.local/share
 /bin/ln -s /home/common/.local/share/lutris .
-builtin cd --
+builtin cd -- >/dev/null
 
 builtin cd /home/$USER
 /bin/ln -s /home/common/.mozilla
@@ -64,6 +64,6 @@ builtin cd /home/$USER
 /bin/ln -s /home/common/Videos
 #Non-standard, create custom folder
 /bin/ln -s /home/common/Games
-builtin cd --
+builtin cd -- >/dev/null
 
 exit 0
