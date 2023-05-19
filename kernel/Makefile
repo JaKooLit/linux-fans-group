@@ -53,5 +53,11 @@ desktop:
 	
 	fi
 
+.PHONY: list
+list: path_sysctl ?= ${call wrap_which,sysctl }
+list: path_less ?= ${call wrap_which,less }
+list:
+	$(path_sysctl) -a
+
 .PHONY: all
 all: desktop |
