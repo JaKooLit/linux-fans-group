@@ -44,7 +44,6 @@ desktop:
 	
 	elif [[ -n "$(val)" ]] && [[ -n "$(line)" ]] && [[ "$(current_val)" -gt "$(val)" ]]; then
 	
-	echo "$(line)"
 	$(path_sed) -i "s/$(line)/$(key_w_fallback)\ =\ $(val)/g" $(conf_file)
 	$(path_sysctl) $(key_w_fallback)="$(val)"
 	
